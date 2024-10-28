@@ -7,9 +7,11 @@ export default function App() {
   const [todos, setTodos] = useState<Todo[]>([])
   return (
     <div className='app'>
-      <Add />
-      <List />
+      <Add setTodos={setTodos} />
+      <List todos={todos} />
     </div>
   )
 }
+
+
 
