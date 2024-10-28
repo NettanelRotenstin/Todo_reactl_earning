@@ -1,0 +1,37 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+ }
+
+ #root{
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(224, 219, 219);
+ }
+
+ .app{
+  background-color: #fff;
+  height: 100%;
+  width: 70%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5em;
+ }
+
+ .card{
+  background-color: rgb(224, 219, 219);
+  border-radius: 10px;
+  padding: 1em;
+ }
+
+ .add{
+  margin-bottom: 1.5em;
+ }
+
+ .list{
+
+ }
