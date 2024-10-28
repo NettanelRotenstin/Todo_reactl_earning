@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className='app'>
       <Add setTodos={setTodos} />
-      <List todos={todos} />
+      <List todos={todos} setTodos={setTodos}/>
     </div>
   )
 }
